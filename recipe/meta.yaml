@@ -1,5 +1,5 @@
-{% set version = "0.1.9" %}
-{% set sha256 = "273846f8aacac32bf9542365a593b495b68d8035c2e382c9ccedcac387c9a0a1" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "77e35fd9f5141d76ad30364684dddbaead2ca6da4b1ef430f6fa0d998cc07e8c" %}
 
 package:
   name: sphinx_rtd_theme
@@ -7,7 +7,7 @@ package:
 
 source:
   fn: sphinx_rtd_theme-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/s/sphinx_rtd_theme/sphinx_rtd_theme-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
