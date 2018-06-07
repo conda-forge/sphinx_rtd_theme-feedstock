@@ -1,5 +1,5 @@
-{% set version = "0.3.1" %}
-{% set sha256 = "6d0481532b5f441b075127a2d755f430f1f8410a50112b1af6b069518548381d" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "de88d637a60371d4f923e06b79c4ba260490c57d2ab5a8316942ab5d9a6ce1bf" %}
 {% set pkg_name = 'sphinx_rtd_theme' %}		
 
 package:
