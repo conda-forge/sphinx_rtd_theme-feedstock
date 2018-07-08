@@ -17,9 +17,8 @@ just trying to use it on your project outside of that site.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinx_rtd_theme-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinx_rtd_theme-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sphinx_rtd_theme-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinx_rtd_theme-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinx_rtd_theme-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinx-rtd-theme-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinx_rtd_theme-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinx_rtd_theme-feedstock)
 
 Current release info
 ====================
