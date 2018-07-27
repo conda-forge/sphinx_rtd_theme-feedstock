@@ -1,5 +1,5 @@
-{% set version = "0.4.0" %}
-{% set sha256 = "de88d637a60371d4f923e06b79c4ba260490c57d2ab5a8316942ab5d9a6ce1bf" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "3b49758a64f8a1ebd8a33cb6cc9093c3935a908b716edfaa5772fd86aac27ef6" %}
 {% set pkg_name = 'sphinx_rtd_theme' %}		
 
 package:
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
