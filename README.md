@@ -1,17 +1,17 @@
 About sphinx_rtd_theme
 ======================
 
-Home: https://github.com/snide/sphinx_rtd_theme/
+Home: https://github.com/rtfd/sphinx_rtd_theme
 
-Package license: MIT
+Package license: Apache 2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: ReadTheDocs.org theme for Sphinx, 2013 version.
+Summary: Sphinx theme for readthedocs.org
 
-This is a mobile-friendly sphinx theme made for readthedocs.org. It's currently in
-development there and includes some rtd variable checks that can be ignored if you're
-just trying to use it on your project outside of that site.
+The sphinx_rtd_theme is a sphinx theme designed to look modern and be mobile-friendly.
+This theme is primary focused to be used on readthedocs.org but can work with your own
+sphinx projects. To read more and see a working demo head over to readthedocs.org.
 
 
 Current build status
