@@ -17,14 +17,15 @@ just trying to use it on your project outside of that site.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx_rtd_theme-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx_rtd_theme-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx_rtd_theme-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx_rtd_theme-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx_rtd_theme-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-rtd-theme-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinx_rtd_theme-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinx_rtd_theme-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx_rtd_theme/badges/version.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx_rtd_theme/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx_rtd_theme-green.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) |
 
 Installing sphinx_rtd_theme
 ===========================
