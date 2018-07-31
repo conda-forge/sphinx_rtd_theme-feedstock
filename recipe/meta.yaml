@@ -31,6 +31,7 @@ test:
 about:
   home: https://github.com/rtfd/sphinx_rtd_theme
   license: Apache 2.0
+  license_file: Apache-License-2.0.txt
   summary: 'Sphinx theme for readthedocs.org'
 
   description: |
