@@ -1,7 +1,7 @@
 About sphinx_rtd_theme
 ======================
 
-Home: https://github.com/snide/sphinx_rtd_theme/
+Home: https://github.com/readthedocs/sphinx_rtd_theme/
 
 Package license: MIT
 
