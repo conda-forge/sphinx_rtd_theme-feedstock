@@ -5,9 +5,11 @@ Home: https://github.com/readthedocs/sphinx_rtd_theme/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_rtd_theme-feedstock/blob/master/LICENSE.txt)
 
 Summary: ReadTheDocs.org theme for Sphinx, 2013 version.
+
+Development: https://github.com/readthedocs/sphinx_rtd_theme/
 
 This is a mobile-friendly sphinx theme made for readthedocs.org. It's currently in
 development there and includes some rtd variable checks that can be ignored if you're
