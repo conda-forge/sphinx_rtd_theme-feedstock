@@ -1,5 +1,5 @@
-{% set version = "0.5.1" %}
-{% set sha256 = "eda689eda0c7301a80cf122dad28b1861e5605cbf455558f3775e1e8200e83a5" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "32bd3b5d13dc8186d7a42fc816a23d32e83a4827d7d9882948e7b837c232da5a" %}
 {% set pkg_name = "sphinx_rtd_theme" %}		
 
 package:
@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
     - setuptools
     - sphinx
   run:
-    - python
+    - python >=2.7
     - sphinx
 
 test:
