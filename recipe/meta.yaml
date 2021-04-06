@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,10 +21,11 @@ requirements:
     - pip
     - python >=2.7
     - setuptools
-    - sphinx
+    - sphinx >=1.6
   run:
     - python >=2.7
-    - sphinx
+    - sphinx >=1.6
+    - docutils <0.17
 
 test:
   imports:
