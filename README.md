@@ -34,6 +34,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--rtd--theme-green.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx_rtd_theme-green.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) |
 
 Installing sphinx_rtd_theme
@@ -46,41 +47,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `sphinx_rtd_theme` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `sphinx-rtd-theme, sphinx_rtd_theme` can be installed with `conda`:
 
 ```
-conda install sphinx_rtd_theme
-```
-
-or with `mamba`:
-
-```
-mamba install sphinx_rtd_theme
-```
-
-It is possible to list all of the versions of `sphinx_rtd_theme` available on your platform with `conda`:
-
-```
-conda search sphinx_rtd_theme --channel conda-forge
+conda install sphinx-rtd-theme sphinx_rtd_theme
 ```
 
 or with `mamba`:
 
 ```
-mamba search sphinx_rtd_theme --channel conda-forge
+mamba install sphinx-rtd-theme sphinx_rtd_theme
+```
+
+It is possible to list all of the versions of `sphinx-rtd-theme` available on your platform with `conda`:
+
+```
+conda search sphinx-rtd-theme --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search sphinx-rtd-theme --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search sphinx_rtd_theme --channel conda-forge
+mamba repoquery search sphinx-rtd-theme --channel conda-forge
 
-# List packages depending on `sphinx_rtd_theme`:
-mamba repoquery whoneeds sphinx_rtd_theme --channel conda-forge
+# List packages depending on `sphinx-rtd-theme`:
+mamba repoquery whoneeds sphinx-rtd-theme --channel conda-forge
 
-# List dependencies of `sphinx_rtd_theme`:
-mamba repoquery depends sphinx_rtd_theme --channel conda-forge
+# List dependencies of `sphinx-rtd-theme`:
+mamba repoquery depends sphinx-rtd-theme --channel conda-forge
 ```
 
 
