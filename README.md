@@ -1,11 +1,11 @@
-About sphinx_rtd_theme
-======================
+About sphinx_rtd_theme-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_rtd_theme-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/readthedocs/sphinx_rtd_theme/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_rtd_theme-feedstock/blob/main/LICENSE.txt)
 
 Summary: ReadTheDocs.org theme for Sphinx, 2013 version.
 
