@@ -23,13 +23,13 @@ outputs:
     requirements:
       host:
         - pip
-        - python >=3.6
+        - python >=3.8
         - setuptools
-        - sphinx >=5,<8
+        - sphinx >=6,<9
       run:
-        - python >=3.6
-        - sphinx >=5,<8
-        - docutils <0.21
+        - python >=3.8
+        - sphinx >=6,<9
+        - docutils >0.18,<0.22
         - sphinxcontrib-jquery >=4,<5
 
     test:
