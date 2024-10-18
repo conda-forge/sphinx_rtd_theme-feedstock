@@ -152,5 +152,4 @@ Feedstock Maintainers
 =====================
 
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
-* [@chohner](https://github.com/chohner/)
 
