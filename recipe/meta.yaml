@@ -8,11 +8,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: {{ name }}
@@ -22,17 +22,19 @@ outputs:
 
     requirements:
       host:
-        - python >=3.8
+        - python {{ python_min }}
         - pip
         - setuptools
         - sphinx >=6,<9
       run:
-        - python >=3.8
+        - python >={{ python_min }}
         - sphinx >=6,<9
         - docutils >0.18,<0.22
         - sphinxcontrib-jquery >=4,<5
 
     test:
+      requires:
+        - python {{ python_min }}
       imports:
         - sphinx_rtd_theme
 
@@ -43,6 +45,8 @@ outputs:
       run:
         - {{ pin_subpackage(name, exact=True) }}
     test:
+      requires:
+        - python {{ python_min }}
       imports:
         - sphinx_rtd_theme
 
