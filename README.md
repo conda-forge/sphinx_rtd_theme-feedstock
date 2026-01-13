@@ -35,7 +35,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--rtd--theme-green.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx_rtd_theme-green.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx__rtd__theme-green.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) |
 
 Installing sphinx_rtd_theme
 ===========================
@@ -106,12 +106,12 @@ it is possible to build and upload installable packages to the
 [conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
-To manage the continuous integration and simplify feedstock maintenance
+To manage the continuous integration and simplify feedstock maintenance,
 [conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
-For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
+For more information, please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -138,7 +138,7 @@ merged, the recipe will be re-built and uploaded automatically to the
 everybody to install and use from the `conda-forge` channel.
 Note that all branches in the conda-forge/sphinx_rtd_theme-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
-on branches in forks and branches in the main repository should only be used to
+on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
