@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: {{ name }}
@@ -25,11 +25,11 @@ outputs:
         - python >=3.8
         - pip
         - setuptools
-        - sphinx >=6,<9
+        - sphinx >=6,<10
       run:
         - python >=3.8
-        - sphinx >=6,<9
-        - docutils >0.18,<0.22
+        - sphinx >=6,<10
+        - docutils >0.18,<0.23
         - sphinxcontrib-jquery >=4,<5
 
     test:
