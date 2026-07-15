@@ -17,17 +17,17 @@ build:
 outputs:
   - name: {{ name }}
     build:
-      script: python -m pip install . --no-deps -vv
+      script: python -m pip install . -vv --no-deps --no-build-isolation
       noarch: python
 
     requirements:
       host:
-        - python >=3.8
+        - python {{ python_min }}.*
         - pip
         - setuptools
         - sphinx >=6,<10
       run:
-        - python >=3.8
+        - python >={{ python_min }}
         - sphinx >=6,<10
         - docutils >0.18,<0.23
         - sphinxcontrib-jquery >=4,<5
@@ -35,16 +35,20 @@ outputs:
     test:
       imports:
         - sphinx_rtd_theme
+      requires:
+        - python {{ python_min }}.*
 
   - name: sphinx-rtd-theme
     build:
-      noarch: python
+      noarch: generic
     requirements:
       run:
         - {{ pin_subpackage(name, exact=True) }}
     test:
       imports:
         - sphinx_rtd_theme
+      requires:
+        - python {{ python_min }}.*
 
 about:
   home: https://github.com/readthedocs/sphinx_rtd_theme/
