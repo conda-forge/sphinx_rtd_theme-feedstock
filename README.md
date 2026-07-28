@@ -153,4 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
+* [@fhoehle](https://github.com/fhoehle/)
 
