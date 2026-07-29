@@ -1,4 +1,4 @@
-About sphinx_rtd_theme-feedstock
+About sphinx-rtd-theme-feedstock
 ================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_rtd_theme-feedstock/blob/main/LICENSE.txt)
@@ -14,7 +14,6 @@ Development: https://github.com/readthedocs/sphinx_rtd_theme/
 This is a mobile-friendly sphinx theme made for readthedocs.org. It's currently in
 development there and includes some rtd variable checks that can be ignored if you're
 just trying to use it on your project outside of that site.
-
 
 Current build status
 ====================
@@ -38,10 +37,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--rtd--theme-green.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-rtd-theme.svg)](https://anaconda.org/conda-forge/sphinx-rtd-theme) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx__rtd__theme-green.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx_rtd_theme.svg)](https://anaconda.org/conda-forge/sphinx_rtd_theme) |
 
-Installing sphinx_rtd_theme
+Installing sphinx-rtd-theme
 ===========================
 
-Installing `sphinx_rtd_theme` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `sphinx-rtd-theme` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -127,17 +126,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating sphinx_rtd_theme-feedstock
+Updating sphinx-rtd-theme-feedstock
 ===================================
 
-If you would like to improve the sphinx_rtd_theme recipe or build a new
+If you would like to improve the sphinx-rtd-theme recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/sphinx_rtd_theme-feedstock are
+Note that all branches in the conda-forge/sphinx-rtd-theme-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
