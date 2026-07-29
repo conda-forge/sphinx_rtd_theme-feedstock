@@ -1,0 +1,69 @@
+schema_version: 1
+
+context:
+  version: 3.1.0
+  sha256: b44276f2c276e909239a4f6c955aa667aaafeb78597923b1c60babc76db78e4c
+  name: sphinx_rtd_theme
+
+recipe:
+  name: ${{ name }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: ${{ sha256 }}
+
+build:
+  number: 2
+
+outputs:
+  - package:
+      name: ${{ name }}
+    build:
+      noarch: python
+      script: python -m pip install . --no-deps --no-build-isolation --disable-pip-version-check -vv
+    requirements:
+      host:
+        - python ${{ python_min }}.*
+        - pip
+        - setuptools
+      run:
+        - python >=${{ python_min }}
+        - sphinx >=6,<10
+        - docutils >0.18,<0.23
+        - sphinxcontrib-jquery >=4,<5
+    tests:
+      - python:
+          imports:
+            - sphinx_rtd_theme
+          pip_check: false
+          python_version: ${{ python_min }}.*
+  - package:
+      name: sphinx-rtd-theme
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage(name, exact=True) }}
+    tests:
+      - python:
+          imports:
+            - sphinx_rtd_theme
+          pip_check: false
+          python_version: ${{ python_min }}.*
+
+about:
+  license: MIT
+  license_file: LICENSE
+  summary: ReadTheDocs.org theme for Sphinx, 2013 version.
+  description: |
+    This is a mobile-friendly sphinx theme made for readthedocs.org. It's currently in
+    development there and includes some rtd variable checks that can be ignored if you're
+    just trying to use it on your project outside of that site.
+  homepage: https://github.com/readthedocs/sphinx_rtd_theme/
+  repository: https://github.com/readthedocs/sphinx_rtd_theme/
+
+extra:
+  recipe-maintainers:
+    - SylvainCorlay
+    - fhoehle
